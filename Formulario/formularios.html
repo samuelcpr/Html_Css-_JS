@@ -1,0 +1,47 @@
+<!--
+    <form>
+        - Elemento que definirá um formulário
+        - É um cantainer estilo <section> <footer>
+        Atribuitos básicos
+        - action
+        -method
+        
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="Contato" action="">
+        <fieldset>
+            <legend>
+                <h2>
+                    How can we best reach you?
+                </h2>
+            </legend>
+            <p> <label>
+            <input type=radio checked name=contact_pref>
+             Phone
+            </label> </p>
+            <p> <label>
+             <input type=radio name=contact_pref>
+             Text
+            </label> </p>
+            <p> <label>
+             <input type=radio name=contact_pref>
+             Email
+            </label> </p>
+        </fieldset>
+        <br>
+        <!-- a teg form="contato liga o butão com o formulario "-->
+        <button type="submit" form="Contato" name="button" value="valor qualquer">Enviar</button>
+    </form>
+</body>
+
+</html>

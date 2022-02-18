@@ -1,0 +1,47 @@
+<!--
+    O que é um pseudo-elemento?
+Os pseudo-elementos se comportam de maneira semelhante. 
+No entanto, eles agem como se você tivesse adicionado um 
+elemento HTML totalmente novo à marcação, em vez de aplicar 
+uma classe a elementos existentes. 
+Os pseudoelementos começam com dois pontos duplos ::.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*ao passa o mouse o elemento muda de cor*/
+        
+        a:link,
+        a:visited {
+            color: rebeccapurple;
+            font-weight: bold;
+        }
+        
+        a:hover {
+            color: hotpink;
+        }
+        
+        article p::first-line {
+            font-size: 120%;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <p><a href="">Isso é um Hover</a></p>
+    <br>
+    <article>
+        <p>Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.</p>
+
+        <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+    </article>
+</body>
+
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<!--isso é um comentario
+
+anatomia das tegs-->
+<h1> utilizado para titulos</h1>
+
+<!--* Elementos  usando imagem e texto-->
+<img src="imagem.png" alt="text">
+<input type="text">
+
+<!--
+* Atributos de elementos
+src="conteúdo" alt="conteudo"
+
+* Atributos booleanos
+- Não precisam de conteúdo
+-->
+<input type="text" disabled>
+<!--o disabled desabilita é um atributo booleano-->
+<!--
+* Aspas
+- omissão
+- simples
+- duplas
+-->
+
+<a href="" target="">link</a>
+<a href="" title="isn't'">link</a>
+
+<!--
+* ATRIBUTOS GLOBAIS
+
+- class
+- contenteditable
+-data-*
+- hidden
+-id 
+- stayle
+-tabindex
+- title
+-->
+<div class="carrinho" contenteditable="true" id="cart1">
+    <!-- contenteditable é usado para modificar escrina no site ou para formularios-->
+    <!-- a class e utilizada para aplicar estilos css e js-->
+    conteúdo
+</div>
+
+<div class="carrinho" data-id="" id="cart2" style="color: red">
+    <!-- elementos aqui dentro-->
+    conteúdo
+</div>
+
+<div class="carrinho" hidden>
+    <!-- hidden escondeo o conteudo-->
+    <!-- elementos aqui dentro-->
+</div>
+
+<div title="definir um titulo">
+
+</div>
+
+<div class="carrinho" hidden>
+
+</div>
+
+<!--
+Aninhamento de tags
+
+-Fluxo
+-hierarquia
+-posicionamento dos elementos
+-->
+<p>
+    vou <em>escrever</em> um parágrafo
+</p>
+<p>
+    <a href="#issoEumLink">Esse</a> é um <em>texto</em>
+    <p>Aqui outro texto</p>
+</p>
+
+<p> Gosto da na <em>turesa</em> pois sinto a <strong>brisa dela</strong> a cada dia
+
+    <a href="#">saiba mais</a>
+</p>
+<!-- 
+    Conteúdo do texto e 
+    caracteres reservados.
+    sinais &lt <
+           &gt >
+
+-->
+<p>
+    &nbsp;
+    <!--&nbsp; é utilizado para dar espaço inicial-->
+    os espaços
+    <br> que colocamos
+    <br> além das quebrados de linha são ignorados
+</p>
+
+<p>
+    &lt; os espaços &gt;
+    <br> que colocamos
+    <br> além das quebras de linha são ingnorados
+    <b> para adicionar o & comercial utilizamos <!--&amp;--></b>
+    <!-- para colocar "" em um texto utilizamos &quot; exemplo &quot;-->
+
+
+</p>
+
+<!-- semantica
+- Dar significado
+- Elementos semanticos
+-->
+<h1>sou um titulo</h1>
+<p>sou um paragrafo</p>
+
+<!--
+    Listas 
+    -Ordenadas
+    -não ordenadas
+-->
+<h1>Suco detox</h1>
+<h2>Ingredientes:</h2>
+
+<ul>
+    <!-- podemos subistituir o ul po ol se colocamos ol visualizaremos uma lista em ordem numerica-->
+    <li>3 folhas de couve</li>
+    <li>1 laranja;</li>
+    <li>1 pedacinho gengibre;</li>
+    <li>300 ml de água;</li>
+    <li>Adoçante a Gosto;</li>
+    <li>gelo a gosto.</li>
+</ul>
+<!--
+    <blockquoute>
+<cite>
+
+    <q>
+-->
+<blockquote cite="http://developer.mozilla.org/en-us/docs/web/HTML/Element/blockquote">
+    <p>0 <strong>Elemento HTML <code>&gt;blockquote&gt;</code></strong> (ou <em>HTML Block Quotation Element</em>) indica que um texto externo foi citado.
+    </p>
+</blockquote>
+
+<p>De acordo com
+    <a href="http://developer.mozilla.org/en-us/docs/web/HTML/Element/blockquote">
+        <cite>pagina MDN blockquote</cite>
+    </a>;
+</p>
+<p>O elemento quote - <code>&lt;q&gt;</code> - é<q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/
+Element/q">usado para citações curtas quenão precisam de 
+parágrafos ou quebras de linha</q> -- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/
+Element/q"><cite>MDN q page</cite></a></p>
+
+<!--
+ Abreviações
+
+ <abbr>
+-->
+
+<p>Usamos <abbr title="Hypertext Markup Lagua">HTML</abbr> Para estruturar nossos documentos da web.</p>
+
+<!-- 
+    Detalhes de contato 
+
+    <address>
+-->
+<address>
+    <p>Samuel Carlos<br>
+    <strong>Porangatu Goiás</strong>
+</p>
+</address>
+<!--
+    Listas de descrição
+    <dl>
+        <dt></dt>
+        <dd></dd>
+    </dl>
+-->
+<h2>Glossario</h2>
+<dl>
+    <dt>Hypertext</dt>
+    <dd>É um hiper texto com possibilidades</dd>
+
+    <dt>Hypertext</dt>
+    <dd>É um hiper texto com possibilidades</dd>
+
+    <dt>Hypertext</dt>
+    <dd>É um hiper texto com possibilidades</dd>
+</dl>
+<!-- 
+    Representando códigos de computador
+
+    <code>
+        partes genéricas de código voce pode adicionar codigo js 
+        dentro dessa teg
+    <Pre>
+        Blocos de código, pois essa tag mantém os espaços em 
+        brancos e recursos que eu colocar no meu código 
+        não vou precisar usar codigo de espaço
+-->
+<pre>
+    <code>
+        &lt;body> &lt;/body>
+    </code>
+</pre>
+
+<!--
+    Elementos genéricos
+
+    *<div>
+    *<span>
+-->
+
+<div class="cart">
+    <span>Camiseta</span>
+    <span>r$</span>
+</div>

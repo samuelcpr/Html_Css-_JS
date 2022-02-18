@@ -1,0 +1,298 @@
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        width: flex;
+        height: flex;
+    }
+    
+    body {
+        background-color: black;
+        /*Permite a organização dos elementos dentro dos continers*/
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        /*justify-content:center; centraliza os elementos*/
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .box1 {
+        position: fixed;
+        background-image: url();
+        width: 100%;
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+    
+    .menu {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        /* alinhamento de intens na vertical vertical */
+        align-items: center;
+    }
+    
+    .menu a {
+        color: azure;
+        padding-right: 25px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    .menu,
+    #bt {
+        height: 12px;
+        font-size: 15px;
+    }
+    
+    .menu a:hover {
+        color: chartreuse;
+    }
+    
+    .icon {
+        display: flex;
+        flex-direction: row;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .icon img {
+        padding-right: 5px;
+    }
+    
+    .search1,
+    #v2 {
+        height: 20px;
+        /* tempo de tranzição do hover ao passar o mouse*/
+        transition: 0.5s;
+        border-radius: 5px;
+        padding: 2px;
+    }
+    
+    .seah1rc form,
+    #v1 {
+        width: 100px;
+        margin: 2px;
+        height: 20px;
+        color: #fff;
+        background-color: brown;
+        font-size: none;
+        border: 1px solid #fff;
+        border-radius: 50px;
+    }
+    
+    #v1:hover {
+        background-color: chartreuse;
+    }
+    
+    .loguin {
+        background-color: brown;
+        /* criar bordas e adicionar cor e estilos*/
+        border: 2px solid floralwhite;
+        /*arrendondar bordas*/
+        border-radius: 50px;
+        /*espaçamento interno*/
+        padding: 3px 0px 3px 30px;
+        /*tirar linha do botão */
+        text-decoration: none;
+        /* tempo de tranzição do hover ao passar o mouse*/
+        transition: 0.5s;
+        margin: 2px 2px 2px 20px;
+    }
+    
+    .loguin:hover {
+        /* important prioriza o comando */
+        /*color muda a cor do texto*/
+        color: #fff !important;
+        /*background-color muda o fundo do elemento*/
+        background-color: chartreuse;
+    }
+    
+    .boxImage img {
+        /*colocar image*/
+        padding: 0;
+        margin: 0;
+        border: 0;
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        margin-bottom: -100px;
+    }
+    
+    .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -200px;
+        background-color: none;
+    }
+    
+    .item .m1 {
+        background-color: rgb(184, 207, 54);
+        border: 5px solid black;
+        margin: 5px;
+        margin-top: -125px;
+        padding: 30px;
+        padding-bottom: 100px;
+        /*borda arrendondada*/
+        border-radius: 20px;
+        /*sombra ao lado*/
+        box-shadow: 10px 5px 5px brown;
+    }
+    
+    .item .m2 {
+        background-color: rgb(184, 207, 54);
+        border: 5px solid black;
+        margin-top: -200px;
+        padding: 30px;
+        padding-bottom: 100px;
+        border-radius: 20px;
+        box-shadow: 10px 5px 5px brown;
+    }
+    
+    .item .m1 img {
+        height: 200px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        border: 2px solid black;
+        background-color: aliceblue;
+        border: 20px solid black;
+        border-radius: 15px;
+        padding: 10px;
+    }
+    
+    .item .m2 img {
+        height: 200px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        border: 2px solid black;
+        background-color: aliceblue;
+        border: 20px solid black;
+        border-radius: 15px;
+        padding: 10px;
+    }
+    
+    .espaço {
+        margin: 100px;
+    }
+    /* parte formulario*/
+    
+    .formulario {
+        background-image: url("img/img3/s1.jpg");
+        display: flex;
+        justify-content: center;
+        height: 500px;
+        align-items: center;
+        line-height: 30px;
+    }
+    
+    #form {
+        align-items: center;
+        height: auto;
+        width: auto;
+        background-color: rgb(184, 207, 54);
+        margin: auto;
+        padding: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border: solid 6px black;
+        border-radius: 30px;
+        line-height: 30px;
+        box-shadow: 10px 5px 5px black;
+    }
+    
+    #form button {
+        height: 30px;
+        background-color: brown;
+        line-height: 30px;
+        width: 30%;
+        margin-top: 10px;
+        border: 2px solid black;
+        border-radius: 50px;
+    }
+    
+    button a {
+        color: #fff;
+        /* ext-decoration estiliza a decoração do texto*/
+        text-decoration: none;
+        font-size: 14px;
+    }
+    
+    #form button:hover {
+        /* important prioriza o comando */
+        /*color muda a cor do texto*/
+        color: #fff !important;
+        /*background-color muda o fundo do elemento*/
+        background-color: chartreuse;
+    }
+    
+    #form input {
+        width: 100%;
+        height: 30px;
+        font-size: 18px;
+        line-height: 30px;
+        border: 1px solid black;
+        border-radius: 50px;
+        padding-left: 20px;
+    }
+    
+    #form p {
+        font-size: 18px;
+        padding: 0%;
+        line-height: 30px;
+    }
+    
+    .titform {
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    
+    .footer {
+        color: aliceblue;
+        display: flex;
+        /*coloca os atributos em linha e da espaço entre eles*/
+        justify-content: space-around;
+        font-size: 18px;
+        height: 50px;
+        margin: 50px;
+        /*	tamanho	da	altura	de	cada	linha	*/
+        line-height: 40px;
+        padding-bottom: 50px;
+    }
+    
+    .footer a {
+        text-decoration: none;
+        color: #fff;
+        word-spacing: 2px;
+    }
+    
+    .footer a:hover {
+        color: chartreuse;
+    }
+    
+    .img3 {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    .footer img {
+        height: 30px;
+        display: flex;
+        justify-content: center;
+    }

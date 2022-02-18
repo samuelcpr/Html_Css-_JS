@@ -1,0 +1,138 @@
+<!--
+    <input>
+    - Um dos mais usados em formulários
+    - Aceita os mais diversos tipos de dados
+    - um dos mais poderosos e complexos
+    - Elevado número de combinações
+
+    Atributos 
+    - type
+    - name 
+    - id
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            width: auto;
+            height: auto;
+            margin-top: 2%;
+            align-items: center;
+        }
+        
+        body {
+            background-color: black;
+            background-repeat: no-repeat !important;
+            background-image: url("img/m4.png");
+            background-position: top;
+            height: auto;
+            margin-top: 0%;
+            margin-bottom: 3%;
+            align-items: center;
+        }
+        
+        .formulario {
+            width: 80%;
+            height: auto;
+            align-items: center;
+            background-position: left;
+            border: solid 1;
+            border-radius: 2px;
+            box-shadow: none;
+        }
+        
+        #form {
+            align-items: center;
+            height: auto;
+            width: auto;
+            background-color: #0073AA;
+            margin-left: 555px;
+            margin-right: 300px;
+            margin-top: 300px;
+            padding: 10px 30px 30px 30px;
+            border: solid 0%;
+            border-radius: 2%;
+        }
+        
+        #form button {
+            color: aliceblue;
+            background-color: brown;
+        }
+        
+        #form input {
+            width: 100%;
+            height: 100%;
+            font-size: 18px;
+        }
+        
+        #form p {
+            font-size: 18px;
+            padding: 0%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fundo">
+        <div class="formulario">
+            <form id="form">
+                <p>Nome</p>
+                <!--
+                    <input type="password">
+                    <input type="file">
+                -->
+                <input type="text">
+                <p>Data</p>
+                <input type="date">
+                <p>Telefone</p>
+                <input type="telephone">
+                <p>Email</p>
+                <input type="email">
+                <p>Quantidade de produtos</p>
+                <input type="number">
+                <button form="form">Enviar</button>
+            </form>
+
+        </div>
+    </div>
+    <!-- 
+        <input> Atributos comuns
+        - autocomplete
+        - disabled
+        - readonly (quase todos)
+        - value
+        - form (quase todos)
+        - name
+        - required (significa obrigatorio) (quase todos)
+
+        - placeholder (password, search, tel, text, url)
+    -->
+    <!-- 
+        <input type="email"
+        autocomplete="email">
+    -->
+
+    <!--
+        <input type="type" autofocus>
+
+        <input type="type">
+
+        <form id="meu-form"></form>
+
+        <input name="email" type="email" form="meu-form">
+
+        <input  type="type" required>
+        <label for="email">Email</label>
+        <input type="email" placeholder="digite seu email">
+
+    -->
+</body>
+
+</html>

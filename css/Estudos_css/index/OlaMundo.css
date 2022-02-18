@@ -1,0 +1,36 @@
+/* o <h1> é um atributo de html que foi atribuido ao css*/
+
+h1,
+h2 {
+    /*selector*/
+    /* Propiedades*/
+    /*property value*/
+    color: rebeccapurple;
+    /* tamanho da fonte*/
+    font-size: 60px;
+    background: gray;
+}
+
+
+/* # Seletors 
+
+conecta um elemento HTML com o CSS
+
+## tipos
+
+*Global Selector '*' ele converte todas as tegs html no formato de seus atributos
+*Element/type selector 'h1, h2, p, div'
+*id selctor '#box, #container'
+*class selector '.red, .m4'
+*Attribute selector, pseudo-class, pseudo-element, e outros
+*/
+
+#container {
+    color: blue;
+    font-size: 18px;
+    width: 200px;
+}
+
+.m-40 {
+    margin: 40px;
+}

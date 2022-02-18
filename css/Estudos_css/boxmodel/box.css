@@ -1,0 +1,9 @@
+h1 {
+    /* Borda do H1 1px é o volume da borda solid sgnifica que uma barra
+    sólida*/
+    border: 1px solid red;
+    /*colocar um espaço ente as caixas utilizamos margin:*/
+    margin: 200px;
+    /*  padding espaço dentro da caixa h1 */
+    padding: 60px;
+}

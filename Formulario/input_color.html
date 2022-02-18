@@ -1,0 +1,34 @@
+<!--
+    <input type="color" />
+
+    - interface para selecionar cor
+    - color picker
+
+    # Atributos
+    - Value: RGB
+       - Se inválido, o preto será exibido
+    - list
+       * o id de uma tag <datalist> que está no mesmo socumento
+       * <datalist> irá conter uma lista de valores pré definidos a fim
+       * Os valores do <datalist> que não forem compatíveis com
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <datalist id="cor">
+        <option>#0073AA</option>
+    </datalist>
+    <input type="color" value="#000" list="cor">
+</body>
+
+</html>

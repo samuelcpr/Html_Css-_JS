@@ -1,0 +1,19 @@
+#my-title {
+    color: grray !important;
+}
+
+.title {
+    color: red;
+}
+
+
+/* Quando declaramos o !important significa que todos stylos de teg que
+O abrange vai ser atribuidos a ele */
+
+h1 {
+    color: blue;
+}
+
+* {
+    color: green;
+}

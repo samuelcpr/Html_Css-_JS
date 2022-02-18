@@ -1,0 +1,51 @@
+<!--
+    <input type="checkbox">
+
+    - caixas que podem ser marcadas 
+    - selecionar um valor para ser enviado
+    - se não selecionado, não será enviado nenhum dado
+
+    Atributos
+    - globais
+    - value
+         * valor que aquele campo contém
+         * se não estiver presente, o padrão é 'on'
+    - checked
+      * para deixar o campo marcado por padrão
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- caixa de marcação-->
+    <p>caixa de marcação</p><br><br>
+    <label for="susbcribe">Receber notificações</label>
+    <input type="checkbox" name="subscribe" id="subscribe">
+
+    <fieldset>
+        <!--checked marca o box automatico-->
+        <legend> Escolha qual da linguagens voce domina</legend>
+        <div>
+            <input type="checkbox" id="coding" name="interest" value="Javascript">
+            <label for="Javascript">Html</label>
+        </div>
+        <div>
+            <input type="checkbox" id="coding" name="interest" value="Ruby">
+            <label for="Ruby">Ruby</label>
+        </div>
+        <div>
+            <input type="checkbox" id="coding" name="interest" value="Phyton">
+            <label for="Phyton">Phyton</label>
+        </div>
+
+    </fieldset>
+</body>
+
+</html>

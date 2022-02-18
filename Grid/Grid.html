@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style rel="stylesheet">
+        body {
+            margin: 0;
+            height: 100vh;
+            display: grid;
+            grid-template-areas: "header header" "main main" "footer footer""aside aside";
+            grid-template-rows: 30px 1fr 40px;
+            grid-template-columns: 1fr 80px;
+        }
+        
+        header {
+            grid-area: header;
+            background-color: aqua;
+            /*para alinhar o atributo header */
+            display: flex;
+            /*alinhar a direita*/
+            justify-content: space-between;
+            /*para centralizar os atributos*/
+            align-items: center;
+            padding: 0 8px;
+        }
+        
+        main {
+            background-color: deeppink;
+        }
+        
+        footer {
+            background-color: coral;
+        }
+        
+        aside {
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<!-- o body é o pai-->
+
+<body>
+    <!-- e esse atributos são os filhos-->
+    <header>Topo
+        <div>menu</div>
+    </header>
+    <main>conteúdo</main>
+    <aside>Infos adicionais</aside>
+    <footer>Rodapé</footer>
+</body>
+
+</html>
