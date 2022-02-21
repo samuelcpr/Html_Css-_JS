@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+.c {
+    /* esses comandos forão utilizados para 
+    colocar a logo e o menu em linha*/
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.c1 {
+    margin: none;
+
+}
