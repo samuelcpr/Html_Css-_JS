@@ -2,6 +2,7 @@
 * undefined
    * indefined
      * indefinido
+     * é algo que definitivamente não vai existir
       
 * null
     * nulo
@@ -13,4 +14,4 @@ console.log(undefined)
 
 console.log(null)
 
-console.log(null === undefined)
+console.log(null === undefined) // null não é undefined

@@ -11,7 +11,7 @@
 console.log({
     name: "Samuel",
     idade: 23,
-    andar: function() {
-        console.log('andar')
+    andar: function() { // isso é um método porque está 
+        console.log('andar') //dentro de um Objeto
     }
 })
